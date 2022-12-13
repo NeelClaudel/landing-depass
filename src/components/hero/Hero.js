@@ -14,16 +14,17 @@ const hero = () => {
           <span className="blue">Billetterie </span>Decentralisé
         </h1>
         <p>
-          Une solution NFT, jeton non fongible, pour les billetteries permet de
-          créer des billets numériques uniques et vérifiables qui ne peuvent pas
-          être dupliqués ni contrefaits. Cela pourrait potentiellement aider à
-          réduire la fraude et à augmenter la sécurité dans l'industrie des
-          billets. Les NFT utilisent la technologie blockchain pour créer des
-          actifs numériques uniques qui sont stockés sur un registre distribué,
-          offrant un enregistrement permanent et transparent de la propriété.
-          Cela peut être particulièrement utile dans le domaine des
-          billetteries, où il est souvent nécessaire de vérifier l'authenticité
-          des billets.
+          Le système de billetterie <span className="blue">depass </span> permet
+          de créer des billets numériques uniques et vérifiables qui ne peuvent
+          pas être dupliqués ni contrefaits. Cela pourrait potentiellement aider
+          à réduire la fraude et à augmenter la{" "}
+          <span className="blue">sécurité </span> dans l'industrie des billets.
+          Les NFT utilisent la technologie blockchain pour créer des actifs
+          numériques uniques qui sont stockés sur un registre distribué, offrant
+          un enregistrement permanent et transparent de la propriété. Cela peut
+          être particulièrement utile dans le domaine des billetteries, où il
+          est souvent nécessaire de vérifier{" "}
+          <span className="blue">l'authenticité</span> des billets.
         </p>
         <div className="btn-group">
           <button className="btn" href="#">
