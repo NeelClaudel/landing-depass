@@ -8,7 +8,10 @@ const About = () => {
   return (
     <div className="about">
       <div className="container">
-        <h2>Protocole de Billetterie Utilisant la technologie blockchain</h2>
+        <h2>
+          <span className="blue">depass. </span>Billetterie Utilisant la
+          technologie blockchain
+        </h2>
         <p>
           Les solutions blockchain de billetteries offrent une option fiable et
           sûre pour la vente et l'échange de billets d'événements. Avec la
@@ -44,20 +47,21 @@ const About = () => {
           <div className="card">
             <AboutCard
               icon={<SiFsecure className="icon" />}
-              heading="Proven, ready-made solutions"
-              text="Integrate pre-built, time-tested oracle solutions that already secure tens of billions in smart contract value for market-leading decentralized applications."
+              heading="Certification et Sécurité"
+              text="
+              Les billetteries NFT permettent aux organisateurs d'événements de créer des billets uniques et numérotés à l'aide de la technologie blockchain. Les organisateurs peuvent suivre et vérifier les billets à tout moment pour s'assurer qu'ils sont authentiques. Les acheteurs de billets peuvent également facilement vérifier l'authenticité de leur billet et être assurés qu'ils ne sont pas victimes de contrefaçon."
             />
           </div>
           <div className="card">
             <AboutCard
               icon={<VscServerProcess className="icon" />}
-              heading="Secure off-chain computation"
-              text="Use a decentralized network of DeFi Keeper nodes to automate contracts, mitigating risk of manual interventions and centralized servers."
+              heading="NFT"
+              text="Les NFT (non-fungible tokens) sont une nouvelle technologie qui change la façon dont nous interagissons avec nos biens numériques. Les NFT sont des jetons numériques qui représentent des actifs numériques uniques et indivisibles."
             />
           </div>
         </div>
         <a href="/" className="btn">
-          Use Defi
+          Lancer Depass App
         </a>
       </div>
     </div>
