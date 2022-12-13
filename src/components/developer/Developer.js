@@ -7,7 +7,7 @@ const Developer = () => {
     <div className="developers">
       <div className="container">
         <div className="left">
-          <h2>Un système billetterie à valeur augmenter</h2>
+          <h2>Un système billetterie sécurisé</h2>
           <p>
             La <span className="blue">sécurité blockchain</span> est une
             <span className="blue"> technologie innovante</span> qui offre une
